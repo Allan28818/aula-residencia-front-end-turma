@@ -1,5 +1,5 @@
 import React from "react";
-import './Menu.css';
+import styles from './menu.module.css';
 import { FaCommentAlt, FaUserAlt, FaAngellist, FaSignOutAlt } from "react-icons/fa";
 
 export function Icon1() {
@@ -17,13 +17,13 @@ export function Icon4() {
 
 export default function Menu() {
   return (
-    <div className="drawer">
-      <div className="topIcons">
+    <div className={styles.drawer}>
+      <div className={styles.topIcons}>
         <Icon1 />
         <Icon2 />
         <Icon3 />
       </div>
-      <div className="bottomIcon">
+      <div className={styles.bottomIcon}>
         <Icon4 />
       </div>
     </div>
