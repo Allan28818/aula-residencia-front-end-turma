@@ -20,8 +20,10 @@
   flex-direction: column;
   gap: 24px;
   align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .bottomIcon {
-  margin-bottom: 8px;
+  margin-bottom: 8px;
 }

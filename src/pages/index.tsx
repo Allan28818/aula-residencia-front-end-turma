@@ -1,6 +1,6 @@
-import Menu from '../components/menu.js';
+import Menu from '../components/menu/index';
 
-export default function Home() {
+export default function Sidebar() {
   return (
     <>
       <Menu />
