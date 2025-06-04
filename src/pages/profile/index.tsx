@@ -1,5 +1,6 @@
 import styles from "./styles.module.css";
 import Input from "../input"; // ajuste o caminho
+import {DefaultButton} from "../../components/buttons/default-buttons";
 
 export default function TelaProfile() {
   return (
@@ -10,15 +11,19 @@ export default function TelaProfile() {
           alt="Perfil"
           className={styles.img}
         />
+          <div className="styles.textinputs">
+            <h2 className={styles.texto}>Nickname</h2>
+            <Input />
+          </div>
+          <div className="styles.textinputs">
+            <h2 className={styles.texto}>Nome</h2>
+            <Input />
+          </div>
+          <div className="styles.textinputs">
+            <h2 className={styles.texto}>Email</h2>
+            <Input />
+          </div>
         <div>
-          <h2 className={styles.texto}>Nickname</h2>
-          <Input />
-
-          <h2 className={styles.texto}>Nome</h2>
-          <Input />
-
-          <h2 className={styles.texto}>Email</h2>
-          <Input />
         </div>
       </div>
 
@@ -26,6 +31,9 @@ export default function TelaProfile() {
   <h2 className={styles.texto}>Bio</h2>
   <div className={styles.inputMaior}>
     <Input />
+  </div>
+    <div>
+  <DefaultButton nameInside=""/>
   </div>
 </div>
 
