@@ -7,8 +7,8 @@ interface ButtonProps {
 
 export function DefaultButton({ nameInside }: ButtonProps) {
   return (
-    <div className={styles.primaryButton}>
+    <button className={styles.primaryButton}>
       {nameInside}
-    </div>
+    </button>
   );
 }
