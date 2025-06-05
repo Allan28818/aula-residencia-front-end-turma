@@ -8,9 +8,6 @@
   border: 3.5px solid var(--secondary-color);
   transition: 0.1s ease;
   background: var(--secondary-background-color);
-
-  &:hover {
-    border: 3.5px solid var(--tertiary-color);
   }
 
   input {
@@ -21,6 +18,7 @@
     font-family: var(--roboto), sans-serif;
     font-weight: 600;
     color: var(--text-color);
+    margin-left:
   }
 
   button {
@@ -39,4 +37,3 @@
       zoom: 0.8;
     }
   }
-}
