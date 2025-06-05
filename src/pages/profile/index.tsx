@@ -27,6 +27,7 @@ export default function TelaProfile() {
 
 <div className={styles.direita}>
   <h2 className={styles.texto}>Bio</h2>
+  
   <div className={styles.inputMaior}>
     <TextInput />
   </div>
