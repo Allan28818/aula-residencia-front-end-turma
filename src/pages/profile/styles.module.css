@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: space-between; /*/* para alinhar ao topo */
+  padding: 30px;
+      background-color: var(--foreground-color);
+    margin: 80px;
+}
+
+.esquerda {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.direita {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container_img {
+  background-color: red;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+
+.img {
+  width: auto;
+  height: 70%;
+}
+
+.texto {
+  font-size: 1.2rem;
+  font-family: var(--shuriken);
+  color: var(--primary-color);
+text-align: left;
+margin-bottom: 0;
+}
+
+.inputMaior {
+  width: 620x;  /* 150px */
+}
+
+.inputMaior input {
+  width: 100% !important;
+  height: 130px !important; /* 700px */
+  font-size: 1rem !important;
+}
+
+.textinputs {
+  width: 100%;
+  height: 60%;
+}

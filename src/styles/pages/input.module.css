@@ -1,0 +1,11 @@
+
+
+.inputTexto{
+    border: 3.5px, var(--secondary-color) solid;
+    background-color: var(--secondary-background-color);
+    
+}
+
+.inputTexto:hover{
+    border: 3.5px solid var(--tertiary-color);
+}
