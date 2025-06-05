@@ -1,9 +1,13 @@
-import styles from "@/styles/pages/home.module.css";
+import Menu from '../components/menu/index';
 
-export default function Home() {
+export default function Sidebar() {
   return (
     <>
-      <h1 className={styles.title}>Home</h1>
+      <Menu />
+      <div style={{ marginLeft: 80, padding: 20 }}>
+        <h1>Texto</h1>
+        <p>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto</p>
+      </div>
     </>
   );
 }
