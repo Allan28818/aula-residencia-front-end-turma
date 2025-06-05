@@ -1,4 +1,4 @@
-import { ReverseButton } from "../components/inputs/password-input/reverse-button";
+import { ReverseButton } from "../components/reverse-button/reverse-button";
 
 export default function ReverseButtonVariant() {
   return (
