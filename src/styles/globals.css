@@ -7,6 +7,9 @@
   --foreground-color: #ffe7ba;
   --text-color: #2f3542;
   --text-white: #ffffff;
+  --normal-reverse-button: #1E466A;
+  --hover-reverse-button: #1E466ACC;
+  --clicked-reverse-button: #2F3542;
 
   --shuriken: "TheLastShuriken";
   --roboto: "Roboto";

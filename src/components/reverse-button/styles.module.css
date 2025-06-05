@@ -1,0 +1,25 @@
+.button {
+  font-family: var(--shuriken);
+  color: var(--text-white);
+  background: var(--normal-reverse-button);
+  width: 341px;
+  height: 83px;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid var(--text-white);
+  transition: background-color 0.3s, border-color 0.3s;
+
+    &:hover {
+    background: var(--hover-reverse-button);
+  }
+  
+     &:active {
+     background: var(--clicked-reverse-button);
+  }
+}
