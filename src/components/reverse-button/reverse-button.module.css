@@ -1,6 +1,7 @@
 .button {
   font-family: var(--shuriken);
-  color:white;
+  color: var(--text-white);
+  background: var(--normal-reverse-button);
   width: 341px;
   height: 83px;
   display: flex;
@@ -13,27 +14,12 @@
   cursor: pointer;
   border: 2px solid var(--text-white);
   transition: background-color 0.3s, border-color 0.3s;
+
+    &:hover {
+    background: var(--hover-reverse-button);
+  }
+  
+     &:active {
+     background: var(--clicked-reverse-button);
+  }
 }
-
-  .button.normalReverseButton{
-
-    background-color: #1E466A;
-  }
-
-  .button.clickedReverseButton{
-
-    background-color: #2F3542;
-  }
-
-  .normalReverseButton:hover {
-  background-color: #2E5A8A; 
-  border-color: #FFD700;
-  }
-
-  .clickedReverseButton:hover {
-    background-color: #3C4A5A;
-    border-color: #FFD700;
-  }
-
-
-
