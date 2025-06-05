@@ -1,27 +1,25 @@
 import styles from "./styles.module.css";
-import Input from "../input"; // ajuste o caminho
+import {TextInput} from "../../components/inputs/text-input/index";
 import {DefaultButton} from "../../components/buttons/default-buttons";
+import ReverseButton from "@/components/reverse-button/reverse-button";
 
 export default function TelaProfile() {
   return (
     <div className={styles.container}>
       <div className={styles.esquerda}>
+        <div></div>
         <img
           src="/assets/kakashi-malvezzi.png"
           alt="Perfil"
           className={styles.img}
         />
-          <div className="styles.textinputs">
+          <div className={styles.textinputs}>
             <h2 className={styles.texto}>Nickname</h2>
-            <Input />
-          </div>
-          <div className="styles.textinputs">
+            <TextInput />
             <h2 className={styles.texto}>Nome</h2>
-            <Input />
-          </div>
-          <div className="styles.textinputs">
+            <TextInput />
             <h2 className={styles.texto}>Email</h2>
-            <Input />
+            <TextInput />
           </div>
         <div>
         </div>
@@ -30,10 +28,11 @@ export default function TelaProfile() {
 <div className={styles.direita}>
   <h2 className={styles.texto}>Bio</h2>
   <div className={styles.inputMaior}>
-    <Input />
+    <TextInput />
   </div>
-    <div>
-  <DefaultButton nameInside=""/>
+    <div className={styles.butons}>
+  <DefaultButton nameInside="Salvar"/>
+  <ReverseButton texto={"Descartar"}/>
   </div>
 </div>
 
