@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-between; /* ou space-around / space-evenly */
+  align-items: flex-start; /* para alinhar ao topo */
+  padding: 30px;
+      background-color: var(--foreground-color);
+    margin: 80px;
+}
+
+.esquerda {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.direita {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fotoPerfil{
+    align-items: center;
+}
+.img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.texto {
+  font-size: 1.2rem;
+  font-family: var(--shuriken);
+  color: var(--primary-color);
+text-align: left;
+}
+
+.inputMaior {
+  width: 620x;  /* 150px */
+}
+
+.inputMaior input {
+  width: 100% !important;
+  height: 130px !important; /* 700px */
+  font-size: 1rem !important;
+}
