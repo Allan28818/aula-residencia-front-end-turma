@@ -9,8 +9,8 @@ export default function ButtonFunc() {
   const [titulo, setTitulo] = useState<string>("TEXT");
 
   return (
-    <div className={styles.box}>
+    <button className={styles.box}>
       <DefaultButton nameInside={titulo} />
-    </div>
+    </button>
   );
 }

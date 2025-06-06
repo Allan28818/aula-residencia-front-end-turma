@@ -1,4 +1,4 @@
-.inputWrapper {
+.textarea {
   width: auto;
   display: flex;
   align-items: center;
@@ -13,13 +13,15 @@
     border: 3.5px solid var(--tertiary-color);
   }
 
-  input {
+  textarea {
     width: 100%;
-    height: 30px;
+    min-height: 100px;
+    max-width: 150px;
     background: transparent;
     border: none;
     font-family: var(--roboto), sans-serif;
     font-weight: 600;
     color: var(--text-color);
+    resize: none;
   }
 }
