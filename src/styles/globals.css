@@ -7,10 +7,15 @@
   --foreground-color: #ffe7ba;
   --text-color: #2f3542;
   --text-white: #ffffff;
-
   --shuriken: "TheLastShuriken";
   --roboto: "Roboto";
 }
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
 @font-face {
   font-family: "TheLastShuriken";
   src: url("/fonts/the-last-shuriken.ttf") format("truetype");
