@@ -1,4 +1,5 @@
 import styles from "./search-input.module.css";
+import { CiSearch } from "react-icons/ci";
 
 
 function SearchInput() {
@@ -6,7 +7,7 @@ function SearchInput() {
     return (
 
         <div className={styles.inputWrapper}>
-            <img src= "/assets/search-icon.svg" alt="Pesquisar" className={styles.searchIcon}/>
+            <CiSearch className={styles.ciSearch} />
             <input type="text" placeholder="Pesquisar" className={styles.input}/>
         </div>
     );

@@ -1,5 +1,5 @@
 .inputWrapper {
-    width: 100%;        
+    width: 70%;        
     max-width: 700px;    
     min-width: 300px;   
     height: 40px;       
@@ -42,4 +42,10 @@
 
     color: var(--text-white);
     opacity: 0.6;
+  }
+  .ciSearch {
+
+    height:70%;
+    width:5%;
+    color: var(--secondary-color);
   }
