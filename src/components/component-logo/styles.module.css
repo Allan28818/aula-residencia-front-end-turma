@@ -1,0 +1,22 @@
+.boxTitle {
+      display: flex;
+      align-items: center;
+
+      gap: 12px;
+      font-family: var(--shuriken);
+      font-weight: bold;
+      font-size: 1.56vw;
+    }
+
+    .logoImage{
+      height: 2.21vw;
+      width: 2.34vw;
+    }
+
+    .dev {
+      color: #e5733b; 
+    }
+
+    .chat {
+      color: #16385f;
+    }

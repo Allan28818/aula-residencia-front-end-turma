@@ -7,10 +7,11 @@
   --foreground-color: #ffe7ba;
   --text-color: #2f3542;
   --text-white: #ffffff;
-
   --shuriken: "TheLastShuriken";
   --roboto: "Roboto";
+  --search-bar-color: #E77B4CB2;
 }
+
 @font-face {
   font-family: "TheLastShuriken";
   src: url("/fonts/the-last-shuriken.ttf") format("truetype");
@@ -21,6 +22,8 @@
 
 * {
   outline: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 html,
