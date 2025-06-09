@@ -1,0 +1,23 @@
+[
+    {
+        "nickName": "mvz_hatake",
+        "nome": "Professor Malvezzi Hatake",
+        "email": "malvezzi_hatake@email.com",
+        "bio": "Nenhum shinobi passou nas minhas provas! Sou Malvezzi Hatake e além de tomar chimarrão nas horas vagas, eu crio os desafios mais difíceis que conseguir fazer. Já fiz parte da Anbu no semestre passado e agora estou auxiliando o hokage com as tarefas da faculdade. Achou o exercício difícil? Calma... vai piorar. Faço coisa pior, acha que eu não vou fazer isso?",
+        "profileImage": "kakashiProfile.svg"
+    },
+    {
+        "nickName": "Stn_Saturobi1",
+        "nome": "Professor Santana",
+        "email": "santana.sarutobi@email.com",
+        "bio": "Nenhum shinobi passou nas minhas provas! Sou Malvezzi Hatake e além de tomar chimarrão nas horas vagas, eu crio os desafios mais difíceis que conseguir fazer. Já fiz parte da Anbu no semestre passado e agora estou auxiliando o hokage com as tarefas da faculdade. Achou o exercício difícil? Calma... vai piorar. Faço coisa pior, acha que eu não vou fazer isso?",
+        "profileImage": "sarutobiProfile.svg"
+    },
+    {
+        "nickName": "Satana_Hackaton",
+        "nome": "Professor Santana",
+        "email": "santana.sarutobi2@email.com",
+        "bio": "Nenhum shinobi passou nas minhas provas! Sou Malvezzi Hatake e além de tomar chimarrão nas horas vagas, eu crio os desafios mais difíceis que conseguir fazer. Já fiz parte da Anbu no semestre passado e agora estou auxiliando o hokage com as tarefas da faculdade. Achou o exercício difícil? Calma... vai piorar. Faço coisa pior, acha que eu não vou fazer isso?",
+        "profileImage": "sarutobiProfile.svg"
+    }
+]

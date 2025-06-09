@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.DivContacts{
+    width: 80.39vw;
+    max-height: 85.57vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.DivContactInfo{
+    display: flex;
+    flex-direction: column;
+    min-width: 26.01vw;
+    max-width: 26.01vw;
+    min-height: 85.57vh;
+    max-height: 85.57vh;
+    background-color: rgb(231, 123, 76, 0.7);
+    padding: 0px 0.78125vw 0.78125vw 0.78125vw ;
+    border-top-left-radius: 0.78vw;
+    border-top-right-radius: 0.78vw;
+    position: relative;
+    justify-content: space-between;
+}
+
+.DivContactInfoImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 93.99%; 
+    max-width:  93.99%; 
+    min-height: 35.11%;
+    max-height: 35.11%;
+    position: relative;
+}
+
+.DivContactsNames{
+  width: 100%;
+  height: 85.57vh;
+}
+
+.ContactInfo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0.78125vw;
+}
+
+.Contact{
+    display: flex;
+    flex-direction: row;
+    padding: 0.89vw;
+    width: 100%;
+    height: 10.25%;
+    align-items: center;
+    gap: 0.78125vw;
+}
+
+.ImageDiv{
+    position: relative;
+    object-fit: contain;
+    height: 100%;
+    aspect-ratio: 1/1;
+    flex-shrink: 0;
+}
+
+.Image{
+    object-fit: cover;
+    border-radius: 360px;
+}
+
+.NickName{
+    font-size: 1.09vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.Name{
+    font-size: 0.93vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.Icon{
+    margin-left: auto;
+    height: 50%;
+    width: 20%;
+    color: var(--secondary-color);
+    aspect-ratio: 1/1;
+}
+
+.IconInfo{
+    width: 2.5vw;
+    height: 2.5vw;
+    color: var(--text-white);
+    aspect-ratio: 1/1;
+    position: absolute;
+    margin-left: 100%;
+    margin-bottom: 40%;
+}
+
+.DivImageInfo{
+    position: relative;
+    height: 29.5vh;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.ImageInfo{
+    object-fit: cover;
+    border-radius: 360px;
+}
+
+.TextInfo{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--shuriken);
+    justify-content: space-between;
+    color: var(--text-white);
+    font-size: 1.09vw;
+    max-height: 9.97%;
+    gap: 0.7vh;
+
+    div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 0.78125vw;
+
+        .info{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            padding-bottom: 5px;
+        }
+    }
+}
+
+.DivDescribe{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 1.95vw 1.32vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    color: var(--text-white);
+    max-height: 30%;
+    margin-top: 4vh;
+}
+
+.button{
+    padding-top: 1.5625vh;
+    padding-bottom: 1.4vh;
+    background-color: var(--primary-color);
+    border: 0.15625vw var(--text-white) solid;
+    border-radius: 0.78125vw;
+    color: var(--text-white);
+    font-family: var(--shuriken);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 3vh;
+    cursor: pointer;
+    width: 100%;
+
+    &:hover{
+        background-color: #E77B4CCC;
+    }
+
+    &:active{
+        background-color: #DED33D;
+        border: 0.15625vw #DED33D solid;
+    }
+}
+
+.reverseButton{
+    padding-top: 1.5625vh;
+    padding-bottom: 1.4vh;
+    background-color: var(--secondary-color);
+    border: 0.15625vw var(--text-white) solid;
+    border-radius: 0.78125vw;
+    color: var(--text-white);
+    font-family: var(--shuriken);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 3vh;
+    cursor: pointer;
+    width: 100%;
+
+        &:hover{
+            background-color: #1E466ACC;
+        }
+
+        &:active{
+            background-color: var(--text-color);
+            border: 0.15625vw var(--text-color) solid ;
+        }
+}
+
+.divButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vh;
+    margin-top: auto;
+}
+
+.TextTopInput{
+    font-family: var(--shuriken);
+    color: var(--text-white);
+    font-size: 1.4vw;
+}
+
+.ImageNotFound{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+}

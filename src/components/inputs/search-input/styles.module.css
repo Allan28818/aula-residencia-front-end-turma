@@ -1,0 +1,44 @@
+.inputWrapper {
+    width: 54.68vw;           
+    height: 4.8vh;            
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.39vw;
+    padding: 0.39vw 0.54vw;    
+    gap: 0.78vw;           
+    background: var(--search-bar-color);
+    transition: 0.1s ease;
+  }
+
+  .input {
+    width: 100%;          
+    height: 100%;
+    background: transparent;
+    border: none;
+    font-family: var(--roboto), sans-serif;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.25vw;
+    color: var(--text-white);
+  }
+
+  .div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .input::placeholder {
+    color: var(--text-white);
+    opacity: 0.6;
+  }
+
+  .BiSearch {
+    height: 7.34vh;
+    width: 7.34vh;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    color: var(--secondary-color);
+  }
