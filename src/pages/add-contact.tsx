@@ -1,7 +1,11 @@
+import SideBar from "@/components/vertical_bar/bar_function"
+import { SideBarEnum } from "@/models/SideBarOptions";
+
 export default function AddContact() {
   return (
     <>
-      <h1>Add Contact</h1>
+      <SideBar activeButton= {SideBarEnum.addContactIcon}/>
     </>
   );
 }
+ 
