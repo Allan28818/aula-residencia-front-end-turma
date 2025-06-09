@@ -108,7 +108,7 @@ export default function Contacts(inputProps:InputProps ){
                 srcImage += value.profileImage;
 
                 if(value.nome.toUpperCase().includes(inputProps.textInput.toUpperCase()) || 
-                value.nickName.includes(inputProps.textInput.toUpperCase())){
+                value.nickName.toUpperCase().includes(inputProps.textInput.toUpperCase())){
                     hasContact = true;
                     return (
                         <div className={styles.Contact}>
