@@ -30,4 +30,11 @@ body {
   background: var(--background-color);
   max-width: 100vw;
   overflow-x: hidden;
+   margin: 0;
+  padding: 0;
+  background-image: url('/assets/fundo_Login.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }

@@ -13,6 +13,7 @@ export default function Login() {
       <LoginForm
         backgroundImage="/assets/fundo_Login.png"
         iconImage="/assets/naruto_Login.png"
+        smokeImage='/assets/smoke_login.png'
       />
       <ToastContainer
         position="top-right"

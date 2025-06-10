@@ -8,9 +8,10 @@ import { DefaultButton } from "../buttons/default-button";
 interface LoginFormProps {
   backgroundImage: string;
   iconImage: string;
+  smokeImage: string;
 }
 
-export function LoginForm({ backgroundImage, iconImage }: LoginFormProps) {
+export function LoginForm({ backgroundImage, iconImage, smokeImage }: LoginFormProps) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [emailError, setEmailError] = useState("");
@@ -58,13 +59,21 @@ export function LoginForm({ backgroundImage, iconImage }: LoginFormProps) {
     }
   };
 
-  return (
+    return (
+  <div className={styles.backgroundWrapper}>
+    <div
+      className={styles.backgroundImage}
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    ></div>
+
     <div className={styles.container}>
-      <div
-        className={styles.leftPanel}
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-      >
-        <img src={iconImage} alt="Ícone" className={styles.iconImage} />
+      <div className={styles.leftPanel}>
+
+      <div className={styles.smokeWrapper}>
+    <img src={smokeImage} alt="Fumaça" className={styles.smokeImage} />
+  </div>
+        <img src={iconImage} alt="Icone" className={styles.iconImage} />
+
         <div className={styles.welcomeText}>BEM VINDO DE VOLTA</div>
       </div>
       <div className={styles.rightPanel}>
@@ -112,5 +121,7 @@ export function LoginForm({ backgroundImage, iconImage }: LoginFormProps) {
         </div>
       </div>
     </div>
-  );
+  </div>
+);
+
 }
