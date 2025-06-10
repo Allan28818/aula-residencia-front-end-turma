@@ -1,13 +1,18 @@
+import { ButtonHTMLAttributes, DetailedHTMLProps } from "react";
 import styles from "./styles.module.css";
-import { useState } from "react";
 
-interface ButtonProps {
+interface ButtonProps extends DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {
   nameInside: string;
+  type?: "button" | "submit" | "reset";
 }
 
-export function DefaultButton({ nameInside }: ButtonProps) {
+export function DefaultButton({ nameInside, className, type = "button", ...rest }: ButtonProps) {
   return (
-    <button className={styles.primaryButton}>
+    <button 
+      className={`${styles.primaryButton} ${className || ''}`}
+      type={type}
+      {...rest}
+    >
       {nameInside}
     </button>
   );
